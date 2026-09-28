@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
@@ -353,7 +352,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.servicetrackeraidl-impl \
-    vendor.qti.memory.pasrmanager-impl \
     vulkan.adreno \
     libAVFVirtClientInterface \
     libAlacSwDec \
@@ -491,7 +489,6 @@ PRODUCT_PACKAGES += \
     libos \
     libosensenativeproxy_client_vendor \
     libpal_net_if \
-    libpasrutils \
     libpdmapper \
     libpdnotifier \
     libperf-thermalprovider \
@@ -718,8 +715,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.memory.pasrmanager-V1-ndk \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
@@ -846,7 +841,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetrackeraidl-service.xml \
     vendor.qti.hardware.vpp-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
-    vendor.qti.memory.pasrmanager-service.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
     vendor.qti.syshealthmon-service.xml \
@@ -886,9 +880,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetrackeraidl-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.qti.memory.pasrmanager-service \
     vendor.qti.psiclient@1.0-service \
-    init.kernel.init_boot-memory \
     init.kernel.post_boot-alor \
     init.kernel.post_boot-alor_5_1 \
     init.kernel.post_boot-alor_5_2 \

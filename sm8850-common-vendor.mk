@@ -438,6 +438,7 @@ PRODUCT_PACKAGES += \
     libnspextensiongenericqnnservice \
     libnspextensionsuperresolutionservice \
     libnspframework \
+    liboemcrypto \
     libolc_vnd_vendor \
     libopluspal \
     libops \
